@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #9c9c9c1a;
+    margin: 0;
+    padding: 0;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: roboto;
+}
+.nav-logo{
+    font-weight: bold;
+}
+
+.nav-menu ul{
+    display: flex;
+    margin: 0;
+    padding: 0; 
+}
+.nav-menu li{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 30px;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+    transition: color ease .25s;
+}
+.nav-menu a:hover{
+    color: blueviolet;
+}
+.nav-reg a{
+    text-decoration: none;
+    color: rgb(58, 57, 57);
+    transition: color ease .25s;
+}
